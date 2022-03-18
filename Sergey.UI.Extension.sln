@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sergey.UI.Extension", "Sergey.UI.Extension\Sergey.UI.Extension.csproj", "{BF74F00E-8436-4587-B071-612A4D383D85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF74F00E-8436-4587-B071-612A4D383D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF74F00E-8436-4587-B071-612A4D383D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF74F00E-8436-4587-B071-612A4D383D85}.Debug|x64.ActiveCfg = Debug|x64
+		{BF74F00E-8436-4587-B071-612A4D383D85}.Debug|x64.Build.0 = Debug|x64
+		{BF74F00E-8436-4587-B071-612A4D383D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF74F00E-8436-4587-B071-612A4D383D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF74F00E-8436-4587-B071-612A4D383D85}.Release|x64.ActiveCfg = Release|x64
+		{BF74F00E-8436-4587-B071-612A4D383D85}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4950D6E3-92E5-44A0-9F33-BB71FCC1D0DA}
+	EndGlobalSection
+EndGlobal

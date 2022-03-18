@@ -1,0 +1,6 @@
+/.idea
+/.vs
+/packages
+/Sergey.UI.Extension/VS_Output
+*Thumbs.db
+*.user
