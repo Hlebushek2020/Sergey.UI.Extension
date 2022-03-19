@@ -1,10 +1,27 @@
 # Sergey.UI.Extension
+## Contents
+- [Dialogs](#dialogs)
+  - [Classes](#classes)
+- [Themes](#themes)
+  - [Classes](#classes-1)
+  - [Enums](#enums)
+  - [Structures](#structures)
+- [UIStyle.xaml](#uistylexaml)
+  - [ControlTemplate with keys](#controltemplate-with-keys)
+  - [Style with keys](#style-with-keys)
+  - [Styles without keys](#styles-without-keys)
+- [Other Resources](#other-resources)
+  - [Themes](#themes-1)
 ## Dialogs
+### Classes
 - MessageBox
 ## Themes
-Management class: ThemeUri
-- Light (Resources/Light.xaml)
-- Dark (Resources/Dark.xaml)
+### Classes
+- ThemeUri
+### Enums
+- Theme
+### Structures
+- ThemeDisplay
 ## UIStyle.xaml
 Location: Resources/UIStyle.xaml  
 Uri: /Sergey.UI.Extension;component/Resources/UIStyle.xaml
@@ -48,3 +65,7 @@ Uri: /Sergey.UI.Extension;component/Resources/UIStyle.xaml
 - ListView
 - ListViewItem
 - GroupBox
+## Other Resources
+### Themes
+- Light (Resources/Light.xaml)
+- Dark (Resources/Dark.xaml)
