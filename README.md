@@ -14,14 +14,22 @@
   - [Themes](#themes-1)
 ## Dialogs
 ### Classes
-- MessageBox
+Name|Description
+-|-
+MessageBox|Analogue of MessageBox from the standard library
 ## Themes
 ### Classes
-- ThemeUri
+Name|Description
+-|-
+ThemeUri|Contains the Uri of the theme and a method to get Uri for theme
 ### Enums
-- Theme
+Name|Description
+-|-
+Theme|Contains constants that define themes
 ### Structures
-- ThemeDisplay
+Name|Description
+-|-
+ThemeDisplay|Used to display the theme in Russian
 ## UIStyle.xaml
 Location: Resources/UIStyle.xaml  
 Uri: /Sergey.UI.Extension;component/Resources/UIStyle.xaml
