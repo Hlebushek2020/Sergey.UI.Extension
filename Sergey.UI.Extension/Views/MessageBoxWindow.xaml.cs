@@ -23,10 +23,13 @@ namespace Sergey.UI.Extension.Views
             {
                 case MessageBoxButton.OK:
                     button_OK.Visibility = Visibility.Visible;
+                    isClose = true;
                     break;
                 case MessageBoxButton.OKCancel:
                     button_OK.Visibility = Visibility.Visible;
                     button_Cansel.Visibility = Visibility.Visible;
+                    isClose = true;
+                    Result = MessageBoxResult.Cancel;
                     break;
                 case MessageBoxButton.YesNo:
                     button_Yes.Visibility = Visibility.Visible;
@@ -36,6 +39,8 @@ namespace Sergey.UI.Extension.Views
                     button_Yes.Visibility = Visibility.Visible;
                     button_No.Visibility = Visibility.Visible;
                     button_Cansel.Visibility = Visibility.Visible;
+                    isClose = true;
+                    Result = MessageBoxResult.Cancel;
                     break;
             }
             switch (icon)

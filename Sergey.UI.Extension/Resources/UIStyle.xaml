@@ -1,6 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:Sergey.UI.Extension">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!--Menu-->
     <Style TargetType="{x:Type Menu}">
         <Setter Property="VerticalContentAlignment" Value="Center"/>
@@ -848,11 +847,6 @@
         <Setter Property="Background" Value="{DynamicResource RichTextBox.Background}"/>
         <Setter Property="BorderBrush" Value="{DynamicResource RichTextBox.Border}"/>
         <Setter Property="Foreground" Value="{DynamicResource Base.Foreground}"/>
-    </Style>
-    <!-- Windows Styles -->
-    <Style x:Key="WindowsBaseStyle" TargetType="{x:Type Window}">
-        <Setter Property="Background" Value="{DynamicResource Base.Grid.Background}"/>
-        <Setter Property="SnapsToDevicePixels" Value="True"/>
     </Style>
     <!--ListView-->
     <Style TargetType="{x:Type ListView}">

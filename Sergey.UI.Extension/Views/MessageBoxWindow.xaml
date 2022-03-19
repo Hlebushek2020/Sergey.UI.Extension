@@ -12,9 +12,9 @@
         WindowStartupLocation="CenterScreen"
         SizeToContent="WidthAndHeight"
         Closing="Window_Closing"
+        Background="{DynamicResource Base.Grid.Background}"
         SnapsToDevicePixels="True"
-        Topmost="True"
-        Style="{StaticResource WindowsBaseStyle}">
+        Topmost="True">
     <Window.Resources>
         <ResourceDictionary Source="/Sergey.UI.Extension;component/Resources/UIStyle.xaml"/>
     </Window.Resources>

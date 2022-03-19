@@ -1,6 +1,5 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:Sergey.UI.Extension">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <!--Base-->
     <SolidColorBrush x:Key="Base.Foreground" Color="Black"/>
     <SolidColorBrush x:Key="Base.NotEnabled.Foreground" Color="Gray"/>
