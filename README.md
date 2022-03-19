@@ -2,9 +2,13 @@
 ## Dialogs
 - MessageBox
 ## Themes
-- Light
-- Dark
-## ControlTemplate with keys
+Management class: ThemeUri
+- Light (Resources/Light.xaml)
+- Dark (Resources/Dark.xaml)
+## UIStyle.xaml
+Location: Resources/UIStyle.xaml  
+Uri: /Sergey.UI.Extension;component/Resources/UIStyle.xaml
+### ControlTemplate with keys
 - MenuItem.SeparatorStyleKey
 - MenuItem.TopLevelHeaderTemplateKey
 - MenuItem.TopLevelItemTemplateKey
@@ -12,7 +16,7 @@
 - ComboBoxTextBox
 - VerticalScrollBar
 - HorizontalScrollBar
-## Style with keys
+### Style with keys
 - ComboBoxToggleButton
 - OptionMarkFocusVisual
 - FocusVisualRadius3
@@ -27,7 +31,7 @@
 - GridView.GridViewScrollViewerStyleKey
 - GridViewColumnHeaderGripper
 - GridViewColumnHeader
-## Styles without keys
+### Styles without keys
 - Menu
 - ContextMenu
 - ComboBox
