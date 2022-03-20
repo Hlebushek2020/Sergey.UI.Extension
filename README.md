@@ -21,15 +21,15 @@ MessageBox|Analogue of MessageBox from the standard library
 ### Classes
 Name|Description
 -|-
-ThemeUri|Contains the Uri of the theme and a method to get Uri for theme
+ThemeUri|Contains constants for uniform theme resource identifiers and a method for obtaining such an identifier for a theme
 ### Enums
 Name|Description
 -|-
-Theme|Contains constants that define themes
+Theme|Contains the constants of all available themes
 ### Structures
 Name|Description
 -|-
-ThemeDisplay|Used to display the theme in Russian
+DisplayTheme|Used to display the theme title in Russian
 ## UIStyle.xaml
 Location: Resources/UIStyle.xaml  
 Uri: /Sergey.UI.Extension;component/Resources/UIStyle.xaml

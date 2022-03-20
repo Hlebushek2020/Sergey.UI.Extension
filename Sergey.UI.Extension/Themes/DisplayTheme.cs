@@ -4,9 +4,19 @@ using System.Reflection;
 
 namespace Sergey.UI.Extension.Themes
 {
-    public struct ThemeDisplay
+    /// <summary>
+    /// Used to display the theme title in Russian
+    /// </summary>
+    public struct DisplayTheme
     {
+        /// <summary>
+        /// Returns the theme
+        /// </summary>
         public Theme Value { get; }
+
+        /// <summary>
+        /// Returns the title of the theme to display
+        /// </summary>
         public string Display
         {
             get
@@ -25,7 +35,11 @@ namespace Sergey.UI.Extension.Themes
             }
         }
 
-        public ThemeDisplay(Theme value)
+        /// <summary>
+        /// Initializes a new instance of the <see cref="DisplayTheme"/> structure for the specified theme
+        /// </summary>
+        /// <param name="value">Theme</param>
+        public DisplayTheme(Theme value)
         {
             Value = value;
         }

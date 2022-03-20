@@ -2,6 +2,9 @@
 
 namespace Sergey.UI.Extension.Themes
 {
+    /// <summary>
+    /// Contains the constants of all available themes
+    /// </summary>
     public enum Theme
     {
         [Display("Светлая")]

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace Sergey.UI.Extension.Themes
 {
+    /// <summary>
+    /// Contains constants for uniform theme resource identifiers and a method for obtaining such an identifier for a theme
+    /// </summary>
     public sealed class ThemeUri
     {
         public static Uri Light { get; } = new Uri("/Sergey.UI.Extension;component/Resources/Themes/Light.xaml", UriKind.Relative);
@@ -13,6 +16,11 @@ namespace Sergey.UI.Extension.Themes
             { Theme.Dark, Dark }
         };
 
+        /// <summary>
+        /// Returns the <see cref="Uri"/> of the given theme
+        /// </summary>
+        /// <param name="theme"><see cref="Theme"/>Theme for which you need to get the Uri</param>
+        /// <returns>Theme <see cref="Uri"/></returns>
         public static Uri Get(Theme theme)
         {
             return _themes[theme];
