@@ -42,6 +42,7 @@ Uri: /Sergey.UI.Extension;component/Resources/UIStyle.xaml
 - VerticalScrollBar
 - HorizontalScrollBar
 ### Style with keys
+- WindowStyle
 - ComboBoxToggleButton
 - OptionMarkFocusVisual
 - FocusVisualRadius3
