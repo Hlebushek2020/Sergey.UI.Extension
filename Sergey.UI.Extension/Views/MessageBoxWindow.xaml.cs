@@ -46,16 +46,16 @@ namespace Sergey.UI.Extension.Views
             switch (icon)
             {
                 case MessageBoxImage.Error:
-                    image_Icon.Source = new BitmapImage(new Uri("pack://application:,,,/YukoClientBase;component/Resources/dialog-error-64.png"));
+                    image_Icon.Source = new BitmapImage(new Uri("/Sergey.UI.Extension;component/Resources/Images/dialog-error-64.png", UriKind.Relative));
                     break;
                 case MessageBoxImage.Information:
-                    image_Icon.Source = new BitmapImage(new Uri("pack://application:,,,/YukoClientBase;component/Resources/dialog-information-64.png"));
+                    image_Icon.Source = new BitmapImage(new Uri("/Sergey.UI.Extension;component/Resources/Images/dialog-information-64.png", UriKind.Relative));
                     break;
                 case MessageBoxImage.Question:
-                    image_Icon.Source = new BitmapImage(new Uri("pack://application:,,,/YukoClientBase;component/Resources/dialog-question-64.png"));
+                    image_Icon.Source = new BitmapImage(new Uri("/Sergey.UI.Extension;component/Resources/Images/dialog-question-64.png", UriKind.Relative));
                     break;
                 case MessageBoxImage.Warning:
-                    image_Icon.Source = new BitmapImage(new Uri("pack://application:,,,/YukoClientBase;component/Resources/dialog-warning-64.png"));
+                    image_Icon.Source = new BitmapImage(new Uri("/Sergey.UI.Extension;component/Resources/Images/dialog-warning-64.png", UriKind.Relative));
                     break;
             }
         }
