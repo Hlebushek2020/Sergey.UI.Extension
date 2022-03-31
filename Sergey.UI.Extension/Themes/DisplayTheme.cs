@@ -1,5 +1,6 @@
 ﻿using Sergey.UI.Extension.Attributes;
 using System;
+using System.Collections.Generic;
 using System.Reflection;
 
 namespace Sergey.UI.Extension.Themes
@@ -42,6 +43,20 @@ namespace Sergey.UI.Extension.Themes
         public DisplayTheme(Theme value)
         {
             Value = value;
+        }
+
+        /// <summary>
+        /// Returns a list of themes to display
+        /// </summary>
+        /// <returns><see cref="DisplayTheme"/> list</returns>
+        public static List<DisplayTheme> GetThemes()
+        {
+            List<DisplayTheme> displayThemes = new List<DisplayTheme>();
+            foreach (Theme theme in Enum.GetValues(typeof(Theme)))
+            {
+                displayThemes.Add(new DisplayTheme(theme));
+            }
+            return displayThemes;
         }
     }
 }
