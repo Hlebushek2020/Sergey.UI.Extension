@@ -1,7 +1,7 @@
 # Sergey.UI.Extension
 Styles and dialog boxes for my programs
 
-**:warning:The namespace documentation is on the [wiki](/wiki)!:warning:**
+**:warning:The namespace documentation is on the [wiki](https://github.com/Hlebushek2020/Sergey.UI.Extension/wiki)!:warning:**
 ## UIStyle.xaml
 Location: Resources/UIStyle.xaml  
 Uri: /Sergey.UI.Extension;component/Resources/UIStyle.xaml
