@@ -49,7 +49,7 @@ namespace Sergey.UI.Extension.Themes
         /// Returns a list of themes to display
         /// </summary>
         /// <returns><see cref="DisplayTheme"/> list</returns>
-        public static List<DisplayTheme> GetThemes()
+        public static List<DisplayTheme> GetList()
         {
             List<DisplayTheme> displayThemes = new List<DisplayTheme>();
             foreach (Theme theme in Enum.GetValues(typeof(Theme)))
