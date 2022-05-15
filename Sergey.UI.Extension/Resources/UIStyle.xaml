@@ -53,6 +53,9 @@
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter TargetName="Border" Property="Background" Value="{DynamicResource Menu.MouseOver.Background}"/>
             </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{DynamicResource Menu.InputGestureText}"/>
+            </Trigger>
         </ControlTemplate.Triggers>
     </ControlTemplate>
     <!--MenuItem.TopLevelItemTemplateKey-->
@@ -63,6 +66,9 @@
         <ControlTemplate.Triggers>
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter TargetName="Border" Property="Background" Value="{DynamicResource Menu.MouseOver.Background}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{DynamicResource Menu.InputGestureText}"/>
             </Trigger>
         </ControlTemplate.Triggers>
     </ControlTemplate>
@@ -93,6 +99,9 @@
             </Trigger>
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter TargetName="Border" Property="Background" Value="{DynamicResource Menu.MouseOver.Background}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{DynamicResource Menu.InputGestureText}"/>
             </Trigger>
         </ControlTemplate.Triggers>
     </ControlTemplate>
@@ -125,6 +134,9 @@
             </Trigger>
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter TargetName="Border" Property="Background" Value="{DynamicResource Menu.MouseOver.Background}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{DynamicResource Menu.InputGestureText}"/>
             </Trigger>
         </ControlTemplate.Triggers>
     </ControlTemplate>
