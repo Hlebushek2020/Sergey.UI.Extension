@@ -778,6 +778,7 @@
                             <Setter Property="BorderBrush" TargetName="checkBoxBorder" Value="{DynamicResource CheckBox.Mark.Disabled.Border}"/>
                             <Setter Property="Fill" TargetName="optionMark" Value="{DynamicResource CheckBox.Mark.Disabled.Mark}"/>
                             <Setter Property="Fill" TargetName="indeterminateMark" Value="{DynamicResource CheckBox.Mark.Disabled.Mark}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource CheckBox.Disabled.Foreground}"/>
                         </Trigger>
                         <Trigger Property="IsPressed" Value="True">
                             <Setter Property="Background" TargetName="checkBoxBorder" Value="{DynamicResource CheckBox.Mark.Pressed.Background}"/>

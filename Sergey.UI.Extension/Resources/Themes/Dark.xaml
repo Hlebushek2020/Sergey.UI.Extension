@@ -69,9 +69,10 @@
     <SolidColorBrush x:Key="CheckBox.Mark.MouseOver.Background" Color="#1F26A0DA"/>
     <SolidColorBrush x:Key="CheckBox.Mark.MouseOver.Border" Color="#a826A0Da"/>
     <SolidColorBrush x:Key="CheckBox.Mark.MouseOver.Mark" Color="#ffc8c8c8"/>
-    <SolidColorBrush x:Key="CheckBox.Mark.Disabled.Background" Color="#FFE6E6E6"/>
-    <SolidColorBrush x:Key="CheckBox.Mark.Disabled.Border" Color="#FFBCBCBC"/>
-    <SolidColorBrush x:Key="CheckBox.Mark.Disabled.Mark" Color="#ffc8c8c8"/>
+    <SolidColorBrush x:Key="CheckBox.Mark.Disabled.Background" Color="Transparent"/>
+    <SolidColorBrush x:Key="CheckBox.Mark.Disabled.Border" Color="#ff414141"/>
+    <SolidColorBrush x:Key="CheckBox.Mark.Disabled.Mark" Color="#ff828282"/>
+    <SolidColorBrush x:Key="CheckBox.Disabled.Foreground" Color="#ff828282"/>
     <SolidColorBrush x:Key="CheckBox.Mark.Pressed.Background" Color="#1F26A0DA"/>
     <SolidColorBrush x:Key="CheckBox.Mark.Pressed.Border" Color="#a826A0Da"/>
     <SolidColorBrush x:Key="CheckBox.Mark.Pressed.Mark" Color="#ffc8c8c8"/>
