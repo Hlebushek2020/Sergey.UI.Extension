@@ -12,8 +12,6 @@ namespace Sergey.UI.Extension.Views
     {
         public MessageBoxResult Result { get; private set; }
 
-        private bool isClose = false;
-
         public MessageBoxWindow(string messageBoxText, string caption, MessageBoxButton button, MessageBoxImage icon)
         {
             InitializeComponent();
@@ -23,23 +21,22 @@ namespace Sergey.UI.Extension.Views
             {
                 case MessageBoxButton.OK:
                     button_OK.Visibility = Visibility.Visible;
-                    isClose = true;
+                    Result = MessageBoxResult.OK;
                     break;
                 case MessageBoxButton.OKCancel:
                     button_OK.Visibility = Visibility.Visible;
                     button_Cansel.Visibility = Visibility.Visible;
-                    isClose = true;
                     Result = MessageBoxResult.Cancel;
                     break;
                 case MessageBoxButton.YesNo:
                     button_Yes.Visibility = Visibility.Visible;
                     button_No.Visibility = Visibility.Visible;
+                    Result = MessageBoxResult.No;
                     break;
                 case MessageBoxButton.YesNoCancel:
                     button_Yes.Visibility = Visibility.Visible;
                     button_No.Visibility = Visibility.Visible;
                     button_Cansel.Visibility = Visibility.Visible;
-                    isClose = true;
                     Result = MessageBoxResult.Cancel;
                     break;
             }
@@ -64,13 +61,7 @@ namespace Sergey.UI.Extension.Views
         {
             string button = ((Button)sender).Tag.ToString();
             Result = (MessageBoxResult)Convert.ToInt32(button);
-            isClose = true;
             Close();
-        }
-
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-            e.Cancel = !isClose;
         }
     }
 }

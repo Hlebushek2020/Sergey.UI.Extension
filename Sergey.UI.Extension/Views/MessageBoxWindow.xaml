@@ -11,7 +11,6 @@
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         SizeToContent="WidthAndHeight"
-        Closing="Window_Closing"
         Background="{DynamicResource Base.Grid.Background}"
         SnapsToDevicePixels="True"
         Topmost="True">
