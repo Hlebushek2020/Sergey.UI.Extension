@@ -15,6 +15,8 @@ namespace Sergey.UI.Extension.Views
         public MessageBoxWindow(string messageBoxText, string caption, MessageBoxButton button, MessageBoxImage icon)
         {
             InitializeComponent();
+            MaxHeight = (int)(SystemParameters.PrimaryScreenHeight / 2);
+            MaxWidth = (int)(SystemParameters.PrimaryScreenWidth / 2);
             Title = caption;
             textBlock_Message.Text = messageBoxText;
             switch (button)
