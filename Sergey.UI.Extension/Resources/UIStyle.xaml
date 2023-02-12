@@ -688,9 +688,21 @@
         <Setter Property="ContextMenu">
             <Setter.Value>
                 <ContextMenu>
-                    <MenuItem Command="ApplicationCommands.Copy" />
-                    <MenuItem Command="ApplicationCommands.Cut" />
-                    <MenuItem Command="ApplicationCommands.Paste" />
+                    <MenuItem Command="ApplicationCommands.Copy">
+                        <MenuItem.Header>
+                            <TextBlock TextAlignment="Left" Text="{Binding RelativeSource={RelativeSource AncestorType=MenuItem}, Path=Command.Text}"/>
+                        </MenuItem.Header>
+                    </MenuItem>
+                        <MenuItem Command="ApplicationCommands.Cut">
+                            <MenuItem.Header>
+                                <TextBlock TextAlignment="Left" Text="{Binding RelativeSource={RelativeSource AncestorType=MenuItem}, Path=Command.Text}"></TextBlock>
+                            </MenuItem.Header>
+                        </MenuItem>
+                    <MenuItem Command="ApplicationCommands.Paste">
+                        <MenuItem.Header>
+                            <TextBlock TextAlignment="Left" Text="{Binding RelativeSource={RelativeSource AncestorType=MenuItem}, Path=Command.Text}"></TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
                 </ContextMenu>
             </Setter.Value>
         </Setter>
@@ -723,7 +735,11 @@
         <Setter Property="ContextMenu">
             <Setter.Value>
                 <ContextMenu>
-                    <MenuItem Command="ApplicationCommands.Paste" />
+                    <MenuItem Command="ApplicationCommands.Paste">
+                        <MenuItem.Header>
+                            <TextBlock TextAlignment="Left" Text="{Binding RelativeSource={RelativeSource AncestorType=MenuItem}, Path=Command.Text}"></TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
                 </ContextMenu>
             </Setter.Value>
         </Setter>
